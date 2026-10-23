@@ -15,8 +15,8 @@ export const SERVICES: LaundryService[] = [
     tagline: "Everyday laundry, hotel-neat",
     description:
       "Machine wash in soft water with pH-balanced detergent, tumble dried and folded into fresh packs. Charged by weight.",
-    price: 69,
-    unit: "kg",
+    price: 40,
+    unit: "piece",
     turnaround: "48 hours",
     highlights: ["Soft water wash", "Separate load per family", "Fabric softener finish"],
   },
@@ -27,8 +27,8 @@ export const SERVICES: LaundryService[] = [
     tagline: "Wardrobe-ready daily wear",
     description:
       "Everything in Wash & Fold, plus a full steam press so shirts and trousers come back hanger-ready.",
-    price: 89,
-    unit: "kg",
+    price: 40,
+    unit: "piece",
     turnaround: "48 hours",
     highlights: ["Steam pressed", "Collar & cuff detailing", "Hanger packed"],
   },
@@ -40,7 +40,7 @@ export const SERVICES: LaundryService[] = [
     description:
       "Solvent-based cleaning for delicate and structured garments, with spot treatment and shape-preserving finishing.",
     price: 199,
-    unit: "piece",
+    unit: "pair of pieces",
     turnaround: "72 hours",
     highlights: ["Stain pre-treatment", "Shape retention", "Breathable garment cover"],
   },
@@ -51,7 +51,7 @@ export const SERVICES: LaundryService[] = [
     tagline: "Crisp creases, zero effort",
     description:
       "Professional steam pressing for clothes you have already washed at home. Ideal for weekly office wear.",
-    price: 15,
+    price: 10,
     unit: "piece",
     turnaround: "24 hours",
     highlights: ["24-hour turnaround", "Temperature-matched to fabric", "Crease-guard folding"],
